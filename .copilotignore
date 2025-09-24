@@ -1,0 +1,28 @@
+# Build outputs
+dist/
+build/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Config files that don't need AI suggestions
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+tsconfig*.json
+
+# Generated files
+*.min.js
+*.min.css
